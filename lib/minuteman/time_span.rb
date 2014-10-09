@@ -10,8 +10,8 @@ class Minuteman
 
     attr_reader :key
 
-    DATE_FORMAT = "%s-%02d-%02d"
-    TIME_FORMAT = "%02d:%02d"
+    DATE_FORMAT = "%s%02d%02d"
+    TIME_FORMAT = "%02d%02d"
 
     # Public: Initializes the base TimeSpan class
     #
